@@ -1,0 +1,67 @@
+// MAIN BLOG --------------------------------
+.mainBlog {
+    background-color: $fondoNegro;
+}
+
+.titulo-blog {
+    font-family: $oswald;
+    color: $letraBlanca;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1rem 0rem 5rem;
+}
+
+.contenedor-tarjeta {
+    background-color: #080808 !important;
+}
+
+.tarjeta {
+    color: $letraBlanca;
+}
+
+
+
+
+// MAIN BLOGs --------------------------------
+.h1-blogs {
+    padding-bottom: 3rem;
+    font-size: 4rem;
+}
+
+.h4-blogs {
+    padding-bottom: 1.5rem;
+}
+
+.h6-blogs {
+    padding-bottom: 1rem;
+}
+
+.img-portada {
+    padding: 3rem 0 3rem;
+}
+
+.texto-blogs h2 {
+    padding: 2rem;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.texto-blogs p {
+    font-size: 2rem;
+    font-weight: lighter;
+}
+
+.conclusion {
+    color: black;
+    padding: 1rem;
+}
+
+.libro-recomendado {
+    color: black;
+    font-family: "oswald";
+    padding: 2rem;
+}
+
+.img-padding-b {
+    padding-bottom: 3.5rem;
+}

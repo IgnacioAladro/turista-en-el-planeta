@@ -1,0 +1,63 @@
+.mainInicio {
+    background-color: #080808;
+}
+
+.imgFondo {
+    background-image: url("../pictures/Fondo\ Turistas.jpg");
+    min-height: 85vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.letraInicio {
+    color: $letraBlanca;
+    font-family: $oswald;
+
+    .se-turista {
+        font-size: 55px;
+        opacity: 75%;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+    
+    .se-turista {
+        font-size: 55px;
+        opacity: 75%;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+    .la-idea {
+        text-align: center;
+        font-weight: normal;
+        font-size: 30px;
+        padding: 1rem;
+        padding-bottom: 1rem;
+    }
+    
+    .idea {
+        text-align: justify;
+        font-weight: lighter;
+        font-size: 25px;
+    }
+    
+    .invitacion {
+        text-align: right;
+        margin-bottom: 0px;
+    }    
+
+    .bienvenida {
+        padding: 3rem 0 3rem;
+    
+        .contenedor-foto {
+            text-align: center;
+
+            img {
+                border-radius: $radius10;
+            }
+        }
+    }
+}
+
+
+

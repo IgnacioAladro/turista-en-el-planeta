@@ -1,0 +1,43 @@
+header {
+    background-color: $fondoNegro;
+    min-height: 15vh;
+    padding-bottom: 2rem;
+
+    .cartel-spotify {
+        background-color: #1ed760;
+        text-align: center;
+        padding: .3rem;
+    
+        a {
+            color: $letraNegra;
+            font-family: $oswald;
+            font-weight: normal;
+            font-size: 17px;
+        }
+    }
+
+    .menuPrincipal {
+        list-style-type: none;
+        gap: 2rem;
+        padding-left: 5rem;
+        padding-top: 1rem;
+
+        .itemMenu {
+            color: $letraBlanca;
+            font-family: $oswald;         
+            font-size: 2rem;
+            padding: 1rem;
+        }
+    }
+    
+    .nav-blog,
+    .nav-lectura,
+    .nav-sobre-mi,
+    .nav-contacto {
+        border-bottom: 1px solid #ffffff;
+    }
+}
+
+
+
+

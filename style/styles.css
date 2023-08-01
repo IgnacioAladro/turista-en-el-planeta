@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "oswald";
+  src: url("./Oswald-VariableFont_wght.ttf");
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: grey;
+  border-radius: 8px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(46, 46, 46);
+}
+
+header {
+  background-color: black;
+  min-height: 15vh;
+  padding-bottom: 2rem;
+}
+header .cartel-spotify {
+  background-color: #1ed760;
+  text-align: center;
+  padding: 0.3rem;
+}
+header .cartel-spotify a {
+  color: black;
+  font-family: "oswald";
+  font-weight: normal;
+  font-size: 17px;
+}
+header .menuPrincipal {
+  list-style-type: none;
+  gap: 2rem;
+  padding-left: 5rem;
+  padding-top: 1rem;
+}
+header .menuPrincipal .itemMenu {
+  color: white;
+  font-family: "oswald";
+  font-size: 2rem;
+  padding: 1rem;
+}
+header .nav-blog,
+header .nav-lectura,
+header .nav-sobre-mi,
+header .nav-contacto {
+  border-bottom: 1px solid #ffffff;
+}
+
+.mainInicio {
+  background-color: #080808;
+}
+
+.imgFondo {
+  background-image: url("../pictures/Fondo Turistas.jpg");
+  min-height: 85vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.letraInicio {
+  color: white;
+  font-family: "oswald";
+}
+.letraInicio .se-turista {
+  font-size: 55px;
+  opacity: 75%;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.letraInicio .se-turista {
+  font-size: 55px;
+  opacity: 75%;
+  padding-bottom: 4rem;
+  text-align: center;
+}
+.letraInicio .la-idea {
+  text-align: center;
+  font-weight: normal;
+  font-size: 30px;
+  padding: 1rem;
+  padding-bottom: 1rem;
+}
+.letraInicio .idea {
+  text-align: justify;
+  font-weight: lighter;
+  font-size: 25px;
+}
+.letraInicio .invitacion {
+  text-align: right;
+  margin-bottom: 0px;
+}
+.letraInicio .bienvenida {
+  padding: 3rem 0 3rem;
+}
+.letraInicio .bienvenida .contenedor-foto {
+  text-align: center;
+}
+.letraInicio .bienvenida .contenedor-foto img {
+  border-radius: 10%;
+}
+
+.mainBlog {
+  background-color: black;
+}
+
+.titulo-blog {
+  font-family: "oswald";
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  padding: 1rem 0rem 5rem;
+}
+
+.contenedor-tarjeta {
+  background-color: #080808 !important;
+}
+
+.tarjeta {
+  color: white;
+}
+
+.h1-blogs {
+  padding-bottom: 3rem;
+  font-size: 4rem;
+}
+
+.h4-blogs {
+  padding-bottom: 1.5rem;
+}
+
+.h6-blogs {
+  padding-bottom: 1rem;
+}
+
+.img-portada {
+  padding: 3rem 0 3rem;
+}
+
+.texto-blogs h2 {
+  padding: 2rem;
+  font-size: 3rem;
+  text-align: center;
+}
+
+.texto-blogs p {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.conclusion {
+  color: black;
+  padding: 1rem;
+}
+
+.libro-recomendado {
+  color: black;
+  font-family: "oswald";
+  padding: 2rem;
+}
+
+.img-padding-b {
+  padding-bottom: 3.5rem;
+}
+
+footer {
+  background-color: black;
+  align-items: center;
+  padding: 2rem;
+  color: white;
+  font-family: "oswald";
+}
+footer .redes {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.footerInicio {
+  background-color: #080808;
+}/*# sourceMappingURL=styles.css.map */
