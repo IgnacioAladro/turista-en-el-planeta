@@ -206,6 +206,15 @@ header .nav-contacto {
   margin-bottom: 0rem;
 }
 
+.mainContacto {
+  font-family: "oswald";
+  color: black;
+  padding: 2rem;
+}
+.mainContacto button {
+  margin: 1rem 0 1rem;
+}
+
 footer {
   background-color: black;
   align-items: center;
@@ -220,4 +229,8 @@ footer .redes {
 
 .footerInicio {
   background-color: #080808;
+}
+
+.logo-contacto-footer {
+  padding-bottom: 2rem;
 }/*# sourceMappingURL=styles.css.map */
