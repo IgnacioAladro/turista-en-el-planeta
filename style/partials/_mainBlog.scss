@@ -23,40 +23,47 @@
 
 
 // MAIN BLOGs --------------------------------
-.h1-blogs {
-    padding-bottom: 3rem;
-    font-size: 4rem;
-}
+.texto-blogs {
+    color: $letraBlanca;
+    font-family: $oswald;
 
-.h4-blogs {
-    padding-bottom: 1.5rem;
-}
+    h1 {
+        padding-bottom: 3rem;
+        font-size: 4rem;
+    }
 
-.h6-blogs {
-    padding-bottom: 1rem;
-}
+    h2 {
+        padding: 2rem;
+        font-size: 3rem;
+        text-align: center;
+    }
 
-.img-portada {
-    padding: 3rem 0 3rem;
-}
+    h4 {
+        padding-bottom: 1.5rem;
+    }
 
-.texto-blogs h2 {
-    padding: 2rem;
-    font-size: 3rem;
-    text-align: center;
-}
+    h6 {
+        padding-bottom: 1rem;
+    }
 
-.texto-blogs p {
-    font-size: 2rem;
-    font-weight: lighter;
-}
+    .img-portada {
+        padding: 3rem 0 3rem;
+    }
 
-.conclusion {
-    color: black;
-    padding: 1rem;
+    p {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+
+    .conclusion {
+        background-color: $fondoBlanco;
+        color: black;
+        padding: 1rem;
+    }
 }
 
 .libro-recomendado {
+    background-color: $fondoBlanco;
     color: black;
     font-family: "oswald";
     padding: 2rem;

@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "oswald";
+  src: url("./Oswald-VariableFont_wght.ttf");
+}
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +12,13 @@ a {
   text-decoration: none;
 }
 
-@font-face {
-  font-family: "oswald";
-  src: url("./Oswald-VariableFont_wght.ttf");
+.contenedor-foto {
+  text-align: center;
 }
+.contenedor-foto img {
+  border-radius: 10%;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -107,12 +114,6 @@ header .nav-contacto {
 .letraInicio .bienvenida {
   padding: 3rem 0 3rem;
 }
-.letraInicio .bienvenida .contenedor-foto {
-  text-align: center;
-}
-.letraInicio .bienvenida .contenedor-foto img {
-  border-radius: 10%;
-}
 
 .mainBlog {
   background-color: black;
@@ -134,40 +135,40 @@ header .nav-contacto {
   color: white;
 }
 
-.h1-blogs {
+.texto-blogs {
+  color: white;
+  font-family: "oswald";
+}
+.texto-blogs h1 {
   padding-bottom: 3rem;
   font-size: 4rem;
 }
-
-.h4-blogs {
-  padding-bottom: 1.5rem;
-}
-
-.h6-blogs {
-  padding-bottom: 1rem;
-}
-
-.img-portada {
-  padding: 3rem 0 3rem;
-}
-
 .texto-blogs h2 {
   padding: 2rem;
   font-size: 3rem;
   text-align: center;
 }
-
+.texto-blogs h4 {
+  padding-bottom: 1.5rem;
+}
+.texto-blogs h6 {
+  padding-bottom: 1rem;
+}
+.texto-blogs .img-portada {
+  padding: 3rem 0 3rem;
+}
 .texto-blogs p {
   font-size: 2rem;
   font-weight: lighter;
 }
-
-.conclusion {
+.texto-blogs .conclusion {
+  background-color: white;
   color: black;
   padding: 1rem;
 }
 
 .libro-recomendado {
+  background-color: white;
   color: black;
   font-family: "oswald";
   padding: 2rem;

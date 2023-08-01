@@ -7,3 +7,11 @@
 a {
     text-decoration: none;
 }
+
+.contenedor-foto {
+    text-align: center;
+
+    img {
+        border-radius: $radius10;
+    }
+}
