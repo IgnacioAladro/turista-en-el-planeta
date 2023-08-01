@@ -185,6 +185,27 @@ header .nav-contacto {
   font-family: "oswald";
 }
 
+.mainSobreMi {
+  background-color: black;
+  color: white;
+  font-family: "oswald";
+}
+.mainSobreMi h1 {
+  font-size: 3rem;
+  padding-bottom: 3.5rem;
+}
+.mainSobreMi p {
+  font-weight: lighter;
+  font-size: 2rem;
+  padding-bottom: 3rem;
+}
+.mainSobreMi img {
+  margin-bottom: 3rem;
+}
+.mainSobreMi .ultimo-p {
+  margin-bottom: 0rem;
+}
+
 footer {
   background-color: black;
   align-items: center;
