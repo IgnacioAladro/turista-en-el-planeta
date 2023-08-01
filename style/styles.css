@@ -19,6 +19,10 @@ a {
   border-radius: 10%;
 }
 
+.bienvenida {
+  padding: 3rem 0 3rem;
+}
+
 body::-webkit-scrollbar {
   width: 10px;
 }
@@ -111,9 +115,6 @@ header .nav-contacto {
   text-align: right;
   margin-bottom: 0px;
 }
-.letraInicio .bienvenida {
-  padding: 3rem 0 3rem;
-}
 
 .mainBlog {
   background-color: black;
@@ -176,6 +177,12 @@ header .nav-contacto {
 
 .img-padding-b {
   padding-bottom: 3.5rem;
+}
+
+.mainLectura .leeConmigo {
+  background-color: black;
+  color: white;
+  font-family: "oswald";
 }
 
 footer {
