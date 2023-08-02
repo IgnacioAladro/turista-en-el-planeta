@@ -11,8 +11,7 @@
 }
 
 .letraInicio {
-    color: $letraBlanca;
-    font-family: $oswald;
+    @extend %letraBlanca;
 
     .se-turista {
         font-size: 55px;
@@ -21,12 +20,6 @@
         text-align: center;
     }
     
-    .se-turista {
-        font-size: 55px;
-        opacity: 75%;
-        padding-bottom: 4rem;
-        text-align: center;
-    }
     .la-idea {
         text-align: center;
         font-weight: normal;

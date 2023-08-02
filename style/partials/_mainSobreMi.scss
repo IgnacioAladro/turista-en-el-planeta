@@ -1,7 +1,6 @@
 .mainSobreMi {
     background-color: $fondoNegro;
-    color: $letraBlanca;
-    font-family: $oswald;
+    @extend %letraBlanca;
 
     h1 {
         font-size: 3rem;

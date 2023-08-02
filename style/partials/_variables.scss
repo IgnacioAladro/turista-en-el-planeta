@@ -1,11 +1,19 @@
-$oswald: "oswald";
-$letraNegra: black;
-$letraBlanca: white;
-$fondoNegro: black;
-$fondoBlanco: white;
 @font-face {
     font-family: "oswald";
     src: url("./Oswald-VariableFont_wght.ttf");
 }
+
+%letraBlanca {
+    color: white;
+    font-family: "oswald";
+}
+
+%letraNegra {
+    color: black;
+    font-family: "oswald";
+}
+
+$fondoNegro: black;
+$fondoBlanco: white;
 
 $radius10: 10%;

@@ -9,8 +9,7 @@ header {
         padding: .3rem;
     
         a {
-            color: $letraNegra;
-            font-family: $oswald;
+            @extend %letraNegra;
             font-weight: normal;
             font-size: 17px;
         }
@@ -23,8 +22,7 @@ header {
         padding-top: 1rem;
 
         .itemMenu {
-            color: $letraBlanca;
-            font-family: $oswald;         
+            @extend %letraBlanca;         
             font-size: 2rem;
             padding: 1rem;
         }

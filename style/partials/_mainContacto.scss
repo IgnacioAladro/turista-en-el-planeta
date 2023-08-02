@@ -1,6 +1,5 @@
 .mainContacto {
-    font-family: $oswald;
-    color: $letraNegra;
+    @extend %letraNegra;
     padding: 2rem;
 
     button {

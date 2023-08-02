@@ -3,8 +3,7 @@
     background-color: $fondoNegro;
 
     .titulo-blog {
-        font-family: $oswald;
-        color: $letraBlanca;
+        @extend %letraBlanca;
         text-align: center;
         font-size: 3rem;
         padding: 1rem 0rem 5rem;
@@ -14,7 +13,7 @@
         background-color: #080808 !important;
     
         .tarjeta {
-            color: $letraBlanca;
+            color: white;
         }
     }
 
@@ -32,8 +31,7 @@
 
 // MAIN BLOGs --------------------------------
 .texto-blogs {
-    color: $letraBlanca;
-    font-family: $oswald;
+    @extend %letraBlanca;
 
     h1 {
         padding-bottom: 3rem;

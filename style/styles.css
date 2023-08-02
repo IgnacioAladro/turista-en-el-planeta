@@ -2,6 +2,16 @@
   font-family: "oswald";
   src: url("./Oswald-VariableFont_wght.ttf");
 }
+footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-blog, .letraInicio, header .menuPrincipal .itemMenu {
+  color: white;
+  font-family: "oswald";
+}
+
+.mainContacto, header .cartel-spotify a {
+  color: black;
+  font-family: "oswald";
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -47,8 +57,6 @@ header .cartel-spotify {
   padding: 0.3rem;
 }
 header .cartel-spotify a {
-  color: black;
-  font-family: "oswald";
   font-weight: normal;
   font-size: 17px;
 }
@@ -59,8 +67,6 @@ header .menuPrincipal {
   padding-top: 1rem;
 }
 header .menuPrincipal .itemMenu {
-  color: white;
-  font-family: "oswald";
   font-size: 2rem;
   padding: 1rem;
 }
@@ -83,16 +89,6 @@ header .nav-contacto {
   background-size: cover;
 }
 
-.letraInicio {
-  color: white;
-  font-family: "oswald";
-}
-.letraInicio .se-turista {
-  font-size: 55px;
-  opacity: 75%;
-  padding-bottom: 4rem;
-  text-align: center;
-}
 .letraInicio .se-turista {
   font-size: 55px;
   opacity: 75%;
@@ -120,8 +116,6 @@ header .nav-contacto {
   background-color: black;
 }
 .mainBlog .titulo-blog {
-  font-family: "oswald";
-  color: white;
   text-align: center;
   font-size: 3rem;
   padding: 1rem 0rem 5rem;
@@ -145,10 +139,6 @@ header .nav-contacto {
   animation-delay: 0.9s;
 }
 
-.texto-blogs {
-  color: white;
-  font-family: "oswald";
-}
 .texto-blogs h1 {
   padding-bottom: 3rem;
   font-size: 4rem;
@@ -201,14 +191,10 @@ header .nav-contacto {
 }
 .mainLectura .leeConmigo {
   background-color: black;
-  color: white;
-  font-family: "oswald";
 }
 
 .mainSobreMi {
   background-color: black;
-  color: white;
-  font-family: "oswald";
 }
 .mainSobreMi h1 {
   font-size: 3rem;
@@ -239,8 +225,6 @@ header .nav-contacto {
   }
 }
 .mainContacto {
-  font-family: "oswald";
-  color: black;
   padding: 2rem;
 }
 .mainContacto button {
@@ -251,8 +235,6 @@ footer {
   background-color: black;
   align-items: center;
   padding: 2rem;
-  color: white;
-  font-family: "oswald";
 }
 footer .redes {
   font-size: 1.5rem;
