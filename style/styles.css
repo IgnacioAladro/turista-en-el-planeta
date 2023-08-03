@@ -122,9 +122,17 @@ header .nav-contacto {
 }
 .mainBlog .contenedor-tarjeta {
   background-color: #080808 !important;
+  transition: 0.5s;
 }
 .mainBlog .contenedor-tarjeta .tarjeta {
   color: white;
+}
+.mainBlog .contenedor-tarjeta:hover {
+  background-color: #2a2a2a !important;
+}
+.mainBlog .contenedor-tarjeta:hover .tituloTarjeta {
+  text-transform: uppercase;
+  border-bottom: 1px solid white;
 }
 .mainBlog .animaBlog {
   animation: scale-in-tl 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;

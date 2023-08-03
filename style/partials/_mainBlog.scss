@@ -15,6 +15,17 @@
         .tarjeta {
             color: white;
         }
+
+        transition: .5s;
+    }
+
+    .contenedor-tarjeta:hover {
+        background-color: #2a2a2a !important;
+
+        .tituloTarjeta {
+            text-transform: uppercase;
+            border-bottom: 1px solid white;
+        }
     }
 
     .animaBlog {
