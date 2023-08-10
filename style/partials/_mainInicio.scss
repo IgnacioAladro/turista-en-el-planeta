@@ -1,5 +1,9 @@
 .mainInicio {
     background-color: #080808;
+
+    .texto-bienvenida {
+        @extend %letraBlancaOpensans
+    }
 }
 
 .imgFondo {
@@ -29,6 +33,7 @@
     }
     
     .idea {
+        @extend %letraBlancaOpensans;
         text-align: justify;
         font-weight: lighter;
         font-size: 25px;

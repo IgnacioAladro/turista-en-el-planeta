@@ -11,12 +11,12 @@ footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-
   font-family: "oswald";
 }
 
-.mainSobreMi p, .mainLectura .leeConmigo .texto, .texto-blogs .conclusion, .texto-blogs p {
+.mainSobreMi p, .mainLectura .leeConmigo .texto, .texto-blogs .conclusion, .texto-blogs p, .letraInicio .idea, .mainInicio .texto-bienvenida {
   color: white;
   font-family: "opensans";
 }
 
-.mainContacto, header .cartel-spotify a {
+.mainContacto {
   color: black;
   font-family: "oswald";
 }
@@ -71,6 +71,7 @@ header .cartel-spotify {
   padding: 0.3rem;
 }
 header .cartel-spotify a {
+  color: black;
   font-weight: normal;
   font-size: 17px;
 }
@@ -94,7 +95,6 @@ header .nav-contacto {
 .mainInicio {
   background-color: #080808;
 }
-
 .imgFondo {
   background-image: url("../pictures/Fondo Turistas.jpg");
   min-height: 85vh;
@@ -258,8 +258,11 @@ footer {
   padding: 2rem;
 }
 footer .redes {
-  font-size: 1.5rem;
+  font-size: 3rem;
   text-align: center;
+}
+footer .redes a {
+  padding: 0rem 1rem;
 }
 
 .footerInicio {
