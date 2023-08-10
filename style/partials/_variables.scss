@@ -3,14 +3,28 @@
     src: url("./Oswald-VariableFont_wght.ttf");
 }
 
-%letraBlanca {
+@font-face {
+    font-family: "opensans";
+    src: url("../OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+%letraBlancaOswald {
     color: white;
     font-family: "oswald";
 }
 
-%letraNegra {
+%letraBlancaOpensans {
+    color: white;
+    font-family: "opensans";
+}
+
+%letraNegraOswald {
     color: black;
     font-family: "oswald";
+}
+%letraNegraOpensans {
+    color: black;
+    font-family: "opensans";
 }
 
 $fondoNegro: black;

@@ -1,9 +1,12 @@
 .mainContacto {
-    @extend %letraNegra;
+    @extend %letraNegraOswald;
     padding: 2rem;
+
+    p {
+        @extend %letraNegraOpensans;
+    }
 
     button {
         margin: 1rem 0 1rem;
     }
 }
-

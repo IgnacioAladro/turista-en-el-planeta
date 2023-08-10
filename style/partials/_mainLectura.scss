@@ -1,6 +1,10 @@
 .mainLectura {
     .leeConmigo {
         background-color: $fondoNegro;
-        @extend %letraBlanca;
+        @extend %letraBlancaOswald;
+
+        .texto {
+            @extend %letraBlancaOpensans;
+        }
     }
 }

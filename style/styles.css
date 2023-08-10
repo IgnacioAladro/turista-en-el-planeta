@@ -2,14 +2,28 @@
   font-family: "oswald";
   src: url("./Oswald-VariableFont_wght.ttf");
 }
+@font-face {
+  font-family: "opensans";
+  src: url("../OpenSans-VariableFont_wdth,wght.ttf");
+}
 footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-blog, .letraInicio, header .menuPrincipal .itemMenu {
   color: white;
   font-family: "oswald";
 }
 
+.mainSobreMi p, .mainLectura .leeConmigo .texto, .texto-blogs .conclusion, .texto-blogs p {
+  color: white;
+  font-family: "opensans";
+}
+
 .mainContacto, header .cartel-spotify a {
   color: black;
   font-family: "oswald";
+}
+
+.mainContacto p {
+  color: black;
+  font-family: "opensans";
 }
 
 * {
@@ -200,7 +214,6 @@ header .nav-contacto {
 .mainLectura .leeConmigo {
   background-color: black;
 }
-
 .mainSobreMi {
   background-color: black;
 }

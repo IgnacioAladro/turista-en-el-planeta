@@ -3,7 +3,7 @@
     background-color: $fondoNegro;
 
     .titulo-blog {
-        @extend %letraBlanca;
+        @extend %letraBlancaOswald;
         text-align: center;
         font-size: 3rem;
         padding: 1rem 0rem 5rem;
@@ -42,7 +42,7 @@
 
 // MAIN BLOGs --------------------------------
 .texto-blogs {
-    @extend %letraBlanca;
+    @extend %letraBlancaOswald;
 
     h1 {
         padding-bottom: 3rem;
@@ -68,12 +68,14 @@
     }
 
     p {
+        @extend %letraBlancaOpensans;
         font-size: 2rem;
         font-weight: lighter;
     }
 
     .conclusion {
         background-color: $fondoBlanco;
+        @extend %letraBlancaOpensans;
         color: black;
         padding: 1rem;
     }

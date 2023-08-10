@@ -1,6 +1,6 @@
 .mainSobreMi {
     background-color: $fondoNegro;
-    @extend %letraBlanca;
+    @extend %letraBlancaOswald;
 
     h1 {
         font-size: 3rem;
@@ -8,6 +8,7 @@
     }
 
     p {
+        @extend %letraBlancaOpensans;
         font-weight: lighter;
         font-size: 2rem;
         padding-bottom: 3rem;

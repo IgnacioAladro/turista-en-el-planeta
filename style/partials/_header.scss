@@ -9,7 +9,7 @@ header {
         padding: .3rem;
     
         a {
-            @extend %letraNegra;
+            @extend %letraNegraOswald;
             font-weight: normal;
             font-size: 17px;
         }
@@ -22,7 +22,7 @@ header {
         padding-top: 1rem;
 
         .itemMenu {
-            @extend %letraBlanca;         
+            @extend %letraBlancaOswald;         
             font-size: 2rem;
             padding: 1rem;
         }
