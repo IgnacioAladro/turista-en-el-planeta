@@ -1,8 +1,12 @@
 .mainInicio {
     background-color: #080808;
 
-    .texto-bienvenida {
-        @extend %letraBlancaOpensans
+    .row {
+        --bs-gutter-x: 0rem;
+
+        .texto-bienvenida {
+            @extend %letraBlancaOpensans
+        }
     }
 }
 

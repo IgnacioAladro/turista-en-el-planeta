@@ -11,7 +11,7 @@ footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-
   font-family: "oswald";
 }
 
-.mainSobreMi p, .mainLectura .leeConmigo .texto, .texto-blogs .conclusion, .texto-blogs p, .letraInicio .idea, .mainInicio .texto-bienvenida {
+.mainSobreMi p, .mainLectura .leeConmigo .texto, .texto-blogs .conclusion, .texto-blogs p, .letraInicio .idea, .mainInicio .row .texto-bienvenida {
   color: white;
   font-family: "opensans";
 }
@@ -94,6 +94,9 @@ header .nav-contacto {
 
 .mainInicio {
   background-color: #080808;
+}
+.mainInicio .row {
+  --bs-gutter-x: 0rem;
 }
 .imgFondo {
   background-image: url("../pictures/Fondo Turistas.jpg");
@@ -213,6 +216,9 @@ header .nav-contacto {
 }
 .mainLectura .leeConmigo {
   background-color: black;
+}
+.mainLectura .leeConmigo .row {
+  --bs-gutter-x: 0rem;
 }
 .mainSobreMi {
   background-color: black;

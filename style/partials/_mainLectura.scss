@@ -3,6 +3,10 @@
         background-color: $fondoNegro;
         @extend %letraBlancaOswald;
 
+        .row {
+            --bs-gutter-x: 0rem;
+        }
+
         .texto {
             @extend %letraBlancaOpensans;
         }
