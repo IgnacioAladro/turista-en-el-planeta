@@ -1,11 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
 @font-face {
   font-family: "oswald";
   src: url("./Oswald-VariableFont_wght.ttf");
 }
-@font-face {
-  font-family: "opensans";
-  src: url("../OpenSans-VariableFont_wdth,wght.ttf");
-}
+/*@font-face {
+    font-family: "opensans";
+    src: url("../OpenSans-VariableFont_wdth_wght.ttf");
+}*/
 footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-blog, .letraInicio, header .menuPrincipal .itemMenu {
   color: white;
   font-family: "oswald";
@@ -13,7 +14,7 @@ footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-
 
 .mainSobreMi p, .mainLectura .leeConmigo .texto, .texto-blogs .conclusion, .texto-blogs p, .letraInicio .idea, .mainInicio .row .texto-bienvenida {
   color: white;
-  font-family: "opensans";
+  font-family: "Open Sans", sans-serif;
 }
 
 .mainContacto {
@@ -23,7 +24,7 @@ footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-
 
 .mainContacto p {
   color: black;
-  font-family: "opensans";
+  font-family: "Open Sans", sans-serif;
 }
 
 * {
