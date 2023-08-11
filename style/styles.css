@@ -3,10 +3,6 @@
   font-family: "oswald";
   src: url("./Oswald-VariableFont_wght.ttf");
 }
-/*@font-face {
-    font-family: "opensans";
-    src: url("../OpenSans-VariableFont_wdth_wght.ttf");
-}*/
 footer, .mainSobreMi, .mainLectura .leeConmigo, .texto-blogs, .mainBlog .titulo-blog, .letraInicio, header .menuPrincipal .itemMenu {
   color: white;
   font-family: "oswald";
@@ -61,6 +57,20 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: rgb(46, 46, 46);
 }
 
+.ir-arriba {
+  background-color: white;
+  font-size: 20px;
+  position: fixed;
+  bottom: 20px;
+  right: 10px;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1000px) {
+  .ir-arriba {
+    display: none;
+  }
+}
 header {
   background-color: black;
   min-height: 15vh;
@@ -269,7 +279,7 @@ footer .redes {
   text-align: center;
 }
 footer .redes a {
-  padding: 0rem 1rem;
+  padding: 0rem 0.5rem;
 }
 
 .footerInicio {
