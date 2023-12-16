@@ -6,11 +6,9 @@ El blog "Turista en el Planeta" aborda temas relacionados con el desarrollo pers
 
 ## Tecnologías Utilizadas
 
-- HTML
-- CSS (Bootstrap)
-- JavaScript (con Luxon para manejo de fechas y horas)
-- SweetAlert2
-- Bootstrap
+- HTML5
+- CSS3 (con SCSS)
+- [Bootstrap](https://getbootstrap.com/)
 
 ---
 *Este README fue creado con ❤️ usando Markdown.*
